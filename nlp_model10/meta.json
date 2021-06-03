@@ -1,0 +1,40 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.0.5,<3.1.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"53a3b967a",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":"spacy_trained_vectors"
+  },
+  "labels":{
+    "ner":[
+      "bonus",
+      "company_name",
+      "effective_date",
+      "emp_name",
+      "execution_date",
+      "hours_of_work",
+      "job_role",
+      "salary",
+      "term_period"
+    ]
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "components":[
+    "ner"
+  ],
+  "disabled":[
+
+  ]
+}
